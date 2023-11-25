@@ -23,6 +23,7 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Asit Pal"},"description":"Research Homepage of Asit Pal","headline":"Home","name":"Asit Pal","url":"https://asitpal.com/"}</script>
 <!-- End Jekyll SEO tag -->
+
 	<head>
 		<title>Asit Pal</title>
 		<meta charset="utf-8" />
@@ -46,7 +47,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Asit Pal</strong> <span>Computational Neuroscience, Learning and Memory</span></a>
+						<a href="index.html" class="logo"><strong>Asit Pal</strong> <span>Computational Neuroscience, Attention and Working Memory</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -56,9 +57,9 @@
 					<nav id="menu">
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
+							<!-- <li><a href="landing.html">Landing</a></li>
 							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="elements.html">Elements</a></li> -->
 						</ul>
 						<!-- <ul class="actions stacked">
 							<li><a href="#" class="button primary fit">Get Started</a></li>
@@ -73,6 +74,9 @@
 							<!-- <span class="image">
 								<img src="images/active_place_avoidance.png" alt>
 							</span> -->
+							<span class="image">
+								<img src="images/brain_image.jpeg" alt="" />
+							</span>
 							<header class="major">
 								<h1>Research Projects</h1>
 							</header>
@@ -81,11 +85,51 @@
 						</div>
 					</section>
 
+
 					<!-- One -->
 					<section id="one">
 						<div class="inner">
 							<header class="major">
-								<h2>Long-term Memory formation in mice</h2>
+								<h2>Multi-stage Cortical Recurrent Circuit Implementing Normalization</h2>
+							</header>
+							<p>The primate brain has a hierarchical modular architecture, executing canonical computations across
+								interconnected cortical areas. Communication between cortical areas is supported by long-range reciprocal
+								connections. Feedback connections have been hypothesized to serve various functions including attentional
+								modulation. Consequently, it is imperative to develop a multistage network model of the brain to effectively
+								study phenomena such as attention and inter-area communication. Here, we present a stable hierarchical
+								recurrent neural circuit model with feedback that dynamically implements divisive normalization exactly at
+								each stage of its hierarchy. We consider a two-stage model (V1 and V4), each stage receives input from the
+								preceding area in the hierarchy and feedback from the subsequent area, and the responses in each area are
+								normalized by local inhibitory signals modulated by the activity of principal neurons across areas. We observe
+								that an increase in feedback from V4 to V1, amplifies responses in both stages, with a more pronounced
+								increase in higher cortical areas, consistent with experimental findings.
+							</p>
+							<p>
+								Additionally, we note that
+								in our model’s single-stage limit cycle regime, feedback-mediated attention (i.e., endogenous attention) from a
+								second stage stabilizes the system, yielding a stable fixed point. We further investigate the coherence
+								of neuronal activity between cortical areas and find a peak in the gamma band whose amplitude is positively
+								correlated with strength of feedback. Our model also admits the existence of a low-dimensional
+								communication subspace (within and across areas) and makes predictions about how the subspace varies with
+								feedback-mediated attention. In particular, the strength of inter-area communication is significantly
+								increased (viz., the population activity of one area more accurately predicted from another), without affecting
+								the subspace dimensionality, in agreement with experimental findings.
+							</p>
+							
+							<!-- <hx>Representative projects:</hx>
+							<ul>
+								<li><a href="disorder-beats-design.html">Disorder beats design in network synchronization</a></li>
+							<li><a href="multilayer-networks.html">Asymmetry-induced synchronization in multilayer networks</a></li>
+							<li><a href="birds-of-different-feathers.html">When only birds of different feathers flock together</a></li>
+							</ul> -->
+						</div>
+					</section>
+
+					<!-- One -->
+					<section id="two">
+						<div class="inner">
+							<header class="major">
+								<h2>Long-term Memory Formation in Mice</h2>
 							</header>
 							<p>It has been shown that the brain region named Hippocampus plays an essential role in Long-term memory formation in mammals. In our study, we try to 
 								identify the possible mechanisms of long-term memory formation in mice. We tried to identify the genes most responsible for forming long-term memory. </p>
@@ -106,7 +150,7 @@
 					</section>
 
 					<!-- Two -->
-					<section id="two">
+					<section id="three">
 						<div class="inner">
 							<header class="major">
 								<h2>Mean Force-based Temperature Accelerated Sliced Sampling Method(TASS)</h2>
@@ -134,7 +178,7 @@
 								<li><a href="https://www.linkedin.com/in/asit-pal/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Asit Pal</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Forty by HTML5 UP</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
